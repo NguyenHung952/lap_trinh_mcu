@@ -149,7 +149,7 @@ Mục tiêu của repository là giúp bản thân nhìn lại quá trình phát
 # 🗂️ Repository Structure
 
 ```text
-STM32-Learning
+lap_trinh_mcu
 │
 ├── Day01
 │
