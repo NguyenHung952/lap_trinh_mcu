@@ -151,11 +151,11 @@ Mục tiêu của repository là giúp bản thân nhìn lại quá trình phát
 ```text
 lap_trinh_mcu
 │
-├── Day01
+├── Day1
 │
-├── Day02
+├── Day2
 │
-├── Day03
+├── Day3
 │
 ├── Documents
 │
