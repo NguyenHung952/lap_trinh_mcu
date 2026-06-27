@@ -177,7 +177,7 @@ STM32-Learning
 ---
 
 # 💻 Phần cứng
-
+* STM32F407VET6
 * STM32F205RBT6
 * ARM KIT
 * LED
