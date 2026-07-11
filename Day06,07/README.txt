@@ -1,6 +1,6 @@
-=========================================
-NGÀY 6 - LED 7 ĐOẠN VÀ THIẾT KẾ DRIVER 74HC595
-=========================================
+===================================================
+NGÀY 6 +7 - LED 7 ĐOẠN VÀ THIẾT KẾ DRIVER 74HC595
+===================================================
 
 Ngày học thứ sáu tập trung tìm hiểu phương pháp điều khiển LED 7 đoạn
 thông qua IC dịch 74HC595 mắc nối tiếp (Cascade) trên STM32. Nội dung
