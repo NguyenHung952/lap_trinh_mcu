@@ -20,4 +20,4 @@ kiểm tra kết quả thực tế.
 
 Đây là bước khởi đầu quan trọng, tạo nền tảng để tiếp tục tìm hiểu các
 ngoại vi khác của STM32 cũng như phát triển các ứng dụng Embedded trong
-những buổi học tiếp theo. :contentReference[oaicite:2]{index=2}
+những buổi học tiếp theo.
