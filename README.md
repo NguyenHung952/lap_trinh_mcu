@@ -119,7 +119,7 @@ Embedded Applications
 
 Xin chân thành cảm ơn tài liệu **“Thực tập Kỹ thuật số và Vi điều khiển”** của thầy **Nguyễn Xuân Quang**, Thạc sĩ, Tiến sĩ ngành **Kỹ thuật Điện và Điện tử**, Khoa **Công nghệ Kỹ thuật Cơ điện tử**, **Trường Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh**.
 
-Đồng thời, xin cảm ơn **kit board của Công ty Điện Tự Động Phú Cường** đã hỗ trợ phần cứng và tạo điều kiện thuận lợi cho quá trình học tập, thực hành và phát triển các dự án trong repository này.
+Đồng thời, xin cảm ơn **ARM kit của Công ty Điện Tự Động Phú Cường** đã hỗ trợ phần cứng và tạo điều kiện thuận lợi cho quá trình học tập, thực hành và phát triển các dự án trong repository này.
 
 ---
 
