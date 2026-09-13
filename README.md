@@ -1,142 +1,100 @@
-# 🚀 Học Lập Trình Với MCU STM32
+# 🚀 Lập trình MCU với STM32
 
-<div align="center">
+Repository lưu trữ quá trình học tập và thực hành **lập trình vi điều khiển STM32**, theo từng buổi học (`Day1` → `Day16`). Nội dung gồm bài thực hành, mã nguồn/project đóng gói và tài liệu phục vụ học tập.
 
-# STM32 Embedded Learning Journey
+## 🎯 Mục tiêu
 
-<img src="https://img.shields.io/badge/MCU-STM32-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Language-C-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/Framework-STM32%20HAL-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/IDE-STM32CubeIDE-lightgrey?style=for-the-badge">
-<img src="https://img.shields.io/badge/Tool-STM32CubeMX-brightgreen?style=for-the-badge">
+- Làm quen với lập trình Embedded C trên STM32
+- Thực hành GPIO, Timer, Interrupt và các ngoại vi cơ bản
+- Làm việc với LED 7 đoạn, LCD, UART và các ứng dụng thời gian thực
+- Rèn luyện quy trình cấu hình và phát triển project STM32
+- Lưu trữ bài thực hành theo tiến trình để dễ học và tra cứu
 
-**Learning Embedded Systems with STM32 through practical examples and projects.**
-
-</div>
-
----
-
-# 📖 Giới thiệu
-
-Repository này được tạo ra để lưu lại quá trình học và thực hành lập trình nhúng với **STM32**.
-
-Nội dung bao gồm các ví dụ, bài thực hành, ghi chú, tài liệu tham khảo và các dự án nhỏ trong quá trình tìm hiểu về vi điều khiển STM32. Repository được cập nhật theo từng giai đoạn học tập nhằm giúp hệ thống hóa kiến thức và theo dõi quá trình phát triển kỹ năng.
-
----
-
-# 🎯 Mục tiêu
-
-- Làm quen với hệ sinh thái STM32
-- Hiểu cách sử dụng STM32CubeMX và STM32CubeIDE
-- Thực hành lập trình với STM32 HAL
-- Tìm hiểu các ngoại vi phổ biến của STM32
-- Rèn luyện kỹ năng đọc tài liệu kỹ thuật và debug
-- Xây dựng nền tảng cho việc phát triển các ứng dụng Embedded
-
----
-
-# 🛠️ Công nghệ sử dụng
-
-| Thành phần | Công nghệ |
-|------------|-----------|
-| MCU | STM32 Series |
-| Language | Embedded C |
-| Framework | STM32 HAL |
-| IDE | STM32CubeIDE |
-| Configuration Tool | STM32CubeMX |
-| Debug | ST-Link |
-| Version Control | Git & GitHub |
-
----
-
-# 📂 Repository Structure
+## 📂 Cấu trúc repository
 
 ```text
-STM32-Learning
-│
-├── Day01
-├── Day02
-├── Day03
-├── ...
-├── Documents
-├── Images
+lap_trinh_mcu/
+├── bai-thuc-hanh/
+│   ├── Day1/
+│   ├── Day2/
+│   ├── Day3/
+│   ├── Day4/
+│   ├── Day5/
+│   ├── Day6,7/
+│   ├── Day8/
+│   ├── Day9/
+│   ├── Day10/
+│   ├── Day11/
+│   ├── Day12/
+│   ├── Day13/
+│   ├── Day14/
+│   ├── Day15/
+│   └── Day16/
+├── tai-lieu/
+│   ├── Arm Kit 01.docx
+│   ├── Học Lập trình STM32.docx
+│   ├── PCSCADA & Factory Automation Solutions.pdf
+│   ├── STM32F205 Reference.pdf
+│   ├── Tài Khoản CTy Điện Tự Động Phú Cường.doc
+│   ├── Tài liệu TT Kỹ thuật số và Vi điều khiển v1.0.pdf
+│   ├── stm32f405zg.pdf
+│   └── stm32f407ve.pdf
 └── README.md
 ```
 
----
+## 🧩 Nội dung thực hành
 
-# 📚 Nội dung
+| Buổi | Nội dung chính thể hiện qua project hiện có |
+|---|---|
+| Day1 | LED chớp tắt |
+| Day2 | Điều khiển LED |
+| Day3 | Timer và ngắt |
+| Day4 | Ngắt ngoài EXTI, xử lý nút nhấn |
+| Day5 | LED 7 đoạn và 74HC595 |
+| Day6,7 | LED 7 đoạn mở rộng |
+| Day8–9 | LED 7 đoạn trên STM32, nút nhấn |
+| Day10–11 | LCD với STM32 |
+| Day12 | Stopwatch |
+| Day13 | Digital Clock |
+| Day14 | Alarm Clock, DS3231 |
+| Day15 | Snake Game trên STM32 |
+| Day16 | USART |
 
-Repository sẽ được cập nhật theo từng chủ đề, bao gồm:
+> Bảng trên được tổng hợp từ tên project hiện có; nội dung chi tiết của từng buổi vẫn được giữ trong `README.txt` tương ứng.
 
-- GPIO
-- Timer
-- External Interrupt (EXTI)
-- UART
-- SPI
-- I2C
-- PWM
-- ADC
-- DMA
-- LCD
-- Driver Development
-- Mini Projects
-- Embedded Software Design
+## 🛠️ Công nghệ & công cụ
 
----
+- **MCU:** STM32
+- **Ngôn ngữ:** Embedded C
+- **IDE:** STM32CubeIDE
+- **Cấu hình:** STM32CubeMX
+- **Thư viện:** STM32 HAL
+- **Debug/Program:** ST-Link
+- **Version control:** Git & GitHub
 
-# 📸 Learning Journey
+## 📚 Cách sử dụng
 
-Trong quá trình học, mình tổng hợp lại kiến thức bằng các infographic và ghi chú trực quan để dễ dàng ôn tập và theo dõi tiến độ.
+1. Chọn buổi học trong thư mục `bai-thuc-hanh/`.
+2. Đọc `README.txt` của buổi đó trước khi mở project.
+3. Mở file project bằng môi trường STM32 phù hợp.
+4. Kiểm tra cấu hình phần cứng và board/MCU trước khi build hoặc nạp chương trình.
+5. Sử dụng thư mục `tai-lieu/` để tra cứu tài liệu và thông tin liên quan.
 
-<p align="center">
-<img src="images/1.png" width="850">
-</p>
+## ⚠️ Lưu ý
 
----
+- Repository phục vụ mục đích học tập và lưu trữ cá nhân.
+- Tên file và nội dung các tài liệu/project gốc được giữ nguyên; chỉ sắp xếp lại vị trí để repository dễ quản lý hơn.
+- Một số file trong repository hiện có kích thước rất nhỏ/không chứa dữ liệu đầy đủ; không tự ý thay thế hoặc xóa chúng nếu chưa kiểm tra bản gốc.
+- Kiểm tra thông tin tài khoản, tài liệu nội bộ hoặc dữ liệu của bên thứ ba trước khi chia sẻ công khai.
 
-# 🚀 Roadmap
-
-```
-GPIO
-   ↓
-Timer
-   ↓
-Interrupt
-   ↓
-Communication Interfaces
-   ↓
-Driver Development
-   ↓
-Mini Projects
-   ↓
-Embedded Applications
-```
-
----
-
-# 🙏 Lời cảm ơn
-
-Xin chân thành cảm ơn tài liệu **“Thực tập Kỹ thuật số và Vi điều khiển”** của thầy **Nguyễn Xuân Quang**, Thạc sĩ, Tiến sĩ ngành **Kỹ thuật Điện và Điện tử**, Khoa **Công nghệ Kỹ thuật Cơ điện tử**, **Trường Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh**.
-
-Đồng thời, xin cảm ơn **ARM kit của Công ty Điện Tự Động Phú Cường** đã hỗ trợ phần cứng và tạo điều kiện thuận lợi cho quá trình học tập, thực hành và phát triển các dự án trong repository này.
-
----
-
-# 👨‍💻 Tác giả
+## 👨‍💻 Tác giả
 
 **Nguyễn Ngọc Hùng**
 
-- 🎓 Electronics & Telecommunications Student
-- 💻 Embedded Systems Learner
-- 🌱 Learning STM32 Embedded Development
+- Electronics & Telecommunications Student
+- Embedded Systems Learner
+- Learning STM32 Embedded Development
 
 ---
 
-<div align="center">
-
-### ⭐ Nếu repository hữu ích, hãy cho một Star!
-
-*"Learning by doing."*
-
-</div>
+> **Learning by doing.** 🔧
